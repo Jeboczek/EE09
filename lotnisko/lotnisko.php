@@ -69,3 +69,6 @@ $db = new mysqli("localhost", "root", "", "egzamin");
     <div class="float-fix"></div>
 </body>
 </html>
+<?php
+$db->close();
+?>
