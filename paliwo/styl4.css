@@ -1,0 +1,45 @@
+*{
+    font-family: Arial;
+}
+
+div#left-block, div#right-block{
+    background-color: rgb(255, 127, 80);
+    color: white;
+    width: 50%;
+    height: 410px;
+    float: left;
+}
+
+div#left-block a{
+    display: block;
+}
+
+div#banner, div#main-block{
+    background-color: rgb(220, 220, 220);
+    padding: 20px;
+    text-align: center;
+}
+
+div#left-footer, div#right-footer{
+    background-color: rgb(255, 127, 80);
+    color: white;
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+
+div.float-fix{
+    clear: both;
+}
+
+table, td{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 127, 80);
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    color: white;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styl4.css">
+    <title>Nasza stacja paliw</title>
+</head>
+<body>
+    <div id="banner">
+        <h2>Witamy stacji paliw!</h2>
+    </div>
+    <div id="left-block">
+        <a href="index.html">
+            <img src="home.png">
+        </a>
+        <a href="kalkulacja.html">
+            <img src="znak.png">
+        </a>
+    </div>
+    <div id="right-block">
+        <img src="samochod.png" alt="grafika: samochód">
+    </div>
+    <div id="main-block">
+        <form>
+            <h2>Oblicz, ile litrów musisz zatankować</h2>
+            dystans do przejebchania w km:<br>
+            <input type="number" id="km"><br>
+            spalanie samochodu w 1/100km:<br>
+            <input type="number" id="fuel_consumption"><br>
+            <input type="submit" value="OBLICZ">
+            <p id="result">
+
+            </p>
+        </form>
+    </div>
+    <div id="left-footer">
+        <p>Strone opracował: PESEL</p>
+    </div>
+    <div id="right-footer">
+        <a href="kwerendy.txt">Tu pobierzesz zapytania</a>
+    </div>
+</body>
+<script>
+    function calculateFuelConsumption(event)  {
+        // Don't refresh page if user clicks at input[type="submit"] 
+        event.preventDefault();
+    
+        let km = parseInt(document.querySelector("input[type='number']#km").value);
+        let fuelConsumption = parseInt(document.querySelector("input[type='number']#fuel_consumption").value); 
+
+        let resultDOMObject = document.getElementById("result");
+        
+        console.log(`${fuelConsumption} / 100 * ${km}`)
+
+        let needFuel = fuelConsumption * km /100;
+
+        resultDOMObject.innerHTML = `Potrzebujesz: ${needFuel} litrów paliwa`;
+    }
+
+    document.querySelector("div#main-block form").addEventListener("submit", calculateFuelConsumption);
+
+</script>
+</html>
