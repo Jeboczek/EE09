@@ -24,7 +24,7 @@ jeżeli masz zainstalowany program git na komputerze możesz wykonać polecenie
 ## I found a bug in your code can I let you know about it somehow?
 Open new issue [here]([here](https://github.com/Jeboczek/EE09/issues)).
 
-## Znalazłem błąd w Twoim kodzie, czy mogę Cię o tym jakoś powiadomić?
+## (PL) Znalazłem błąd w Twoim kodzie, czy mogę Cię o tym jakoś powiadomić?
 Otwórz nową sprawę [tutaj]([here](https://github.com/Jeboczek/EE09/issues)).
 
 Nie musisz opisywać problemu w języku angielskim.
