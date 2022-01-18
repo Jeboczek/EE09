@@ -1,0 +1,54 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+
+div.left-panel{
+    background-color: navy;
+    color: white;
+    width: 25%;
+    height: 700px;
+    float: left;
+}
+
+div.first-panel{
+    background-color: royalblue;
+    height: 100px;
+    width: 75%;
+    float: left;
+    text-align: center;
+}
+
+div.second-panel{
+    background-color: steelblue;
+    height: 300px;
+    width: 75%;
+    float: left;
+}
+
+div.third-panel{
+    background-color: royalblue;
+    height: 300px;
+    width: 75%;
+    float: left;
+    text-align: center;
+}
+
+div.footer{
+    background-color: steelblue;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+
+h1{
+    letter-spacing: 5px;
+}
+
+form{
+    margin: 30px;
+    line-height: 3;
+}
+
+form:hover{
+    background-color: deepskyblue;
+}
