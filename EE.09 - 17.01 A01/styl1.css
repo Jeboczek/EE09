@@ -1,0 +1,45 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.float-fix{
+    clear: both;
+}
+
+div#banner{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+div#main-block{
+    background-color: lightblue;
+    padding: 100px;
+}
+
+div#left-block{
+    background-color: dodgerblue;
+    color: white;
+    width: 20%;
+    height: 220px;
+    float: left;
+}
+
+div#center-block, div#right-block {
+    background-color: dodgerblue;
+    color: white;
+    width: 40%;
+    height: 220px;
+    text-align: center;
+    float: left;
+}
+
+a {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: dimgray;
+    background-color: gold;
+    color: darkred;
+    padding: 10px;
+}
