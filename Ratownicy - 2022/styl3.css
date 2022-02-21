@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div#banner-left, div#footer-left {
+    width: 55%;
+    font-size: 120%;
+}
+
+div#banner-center, div#footer-center{
+    width: 25%;
+}
+
+div#banner-right, div#footer-right {
+    width: 20%;
+    text-align: right;
+}
+
+div#main-block {
+    background-color: snow;
+    padding: 70px;
+}
+
+a {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: saddlebrown;
+    background-color: snow;
+    color: saddlebrown;
+    padding: 20px;
+    line-height: 100px;
+}
+
+li {
+    list-style-type: lower-alpha;
+}
+
+div#footer-left, div#footer-center, div#footer-right, div#banner-left, div#banner-center, div#banner-right {
+    float: left;
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+}
+
+div.float-fix{
+    clear: both;
+}
