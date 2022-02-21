@@ -1,0 +1,59 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#banner-left, div#banner-right {
+    background-color: rgb(70, 130, 180);
+    color: white;
+    width: 25%;
+    height: 80px;
+    float: left;
+}
+
+div#banner-center {
+    background-color: rgb(70, 130, 180);
+    color: white;
+    width: 50%;
+    height: 80px;
+    text-align: center;
+    float: left;
+}
+
+div#main-block {
+    background-color: rgb(224, 255, 255);
+    padding: 40px;
+}
+
+div#left-block, div#right-block {
+    background-color: rgb(70, 130, 180);
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+
+div#footer{
+    background-color: rgb(224, 255, 255);
+}
+
+table {
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+}
+
+th {
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    background-color: blue;
+    color: white;
+}
